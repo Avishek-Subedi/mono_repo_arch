@@ -1,0 +1,15 @@
+name: himalaya_hospitality
+repository: https://github.com/Hridayangam-Technology/himalaya_hospitality
+
+ide:
+  intellij:
+    moduleNamePrefix: hritech_
+
+packages:
+  - packages/*
+
+scripts:
+  loc:
+    exec: flutter gen-l10n --suppress-warnings
+    packageFilters:
+      fileExists: l10n.yaml

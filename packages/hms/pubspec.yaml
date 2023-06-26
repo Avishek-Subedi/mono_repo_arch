@@ -1,0 +1,23 @@
+name: hms
+description: The Himalaya HMS Application.
+publish_to: none
+version: 0.0.1+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+  flutter: '>=3.10.4'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hms_components: any
+  hms_core: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.0.0+1
+
+flutter:
+  generate: true
+  uses-material-design: true

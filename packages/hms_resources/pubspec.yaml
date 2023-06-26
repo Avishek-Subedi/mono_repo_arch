@@ -1,0 +1,24 @@
+name: hms_resources
+description: The Himalaya HMS Resources; assets, theme, strings, etc.
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+  flutter: '>=3.10.4'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.0.0+1
+
+flutter:
+  generate: true
+  uses-material-design: true

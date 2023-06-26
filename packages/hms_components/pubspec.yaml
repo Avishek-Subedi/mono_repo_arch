@@ -1,0 +1,21 @@
+name: hms_components
+description: The Himalaya HMS Components.
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+  flutter: '>=3.10.4'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hms_resources: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.0.0+1
+
+flutter:
+  uses-material-design: true
